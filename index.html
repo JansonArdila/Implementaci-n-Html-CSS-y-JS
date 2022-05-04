@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" 
+    href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">     
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/bx-menu.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">INICIO</a>
+                <a href="#servicio">INFORMACION</a>
+                <a href="#galeria">GALERIA</a>
+                <a href="#expertos">MECANICOS</a>
+                <a href="#footer">CONTACTO</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">AUTOLAB</h1>
+            <p class="copy">SERVICIO DE AUTOS Y REGLAJES</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">INFORMACION</h2>
+            <div class="contenedor-servicio">
+                <img src="img/gt1.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>GRAN TURISMO</h3>
+                        <p> Gran Turismo (normalmente abreviado como GT) es una serie japonesa de videojuegos 
+                            de simulación de carreras desarrollada por Polyphony Digital.
+                            Desarrollados para sistemas PlayStation, los juegos de Gran Turismo están destinados a 
+                            emular la apariencia y el rendimiento de una gran selección de vehículos, la mayoría de los cuales son 
+                            reproducciones con licencia de automóviles del mundo real. </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>REGLAJES</h3>
+                        <p> En este sitio web encontraras los reglajes necesarios para tus autos asi como tamien
+                            puedes solicitar ayuda a alguno de nuestros mecanicos.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>MECANICOS</h3>
+                        <p> Podras solucitar auyuda a alguno de nuestros mecanicos y estos te podran colaborar
+                            dependiendo de tu solicitud.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/gt21.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/gt4.jpg" class="img-galeria" alt="">
+                    <img src="img/gt2.jpg" class="img-galeria" alt="">
+                    <img src="img/gt31.jpg" class="img-galeria" alt="">
+                    <img src="img/gt11.jpg" class="img-galeria" alt="">
+                    <img src="img/gt6.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">MECANICOS</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/imgpilot.PNG" alt="">
+                    <h3 class="n-expert">GERSSON JAVIER</h3>
+                    <p>Mecanico especializado en Karting y todo lo relacionado a reglajes</p>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/imgpilot.PNG" alt="">
+                    <h3 class="n-expert">ANGIE LILIANA</h3>
+                    <p>Mecanico especializado en categoria F1 y todo lo relacionado a reglajes</p>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/imgpilot.PNG" alt="">
+                    <h3 class="n-expert">YEISON ARDILA</h3>
+                    <p>Mecanico especializado en Rally y todo lo relacionado a reglajes</p>
+                </div>
+            </section>
+        </section>
+        <div class="container">
+            <h2 class="subtitulo">CONTACTANOS</h2>
+            <form action="https://formsubmit.co/gersson458@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Nombre Completo" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="Message" placeholder="Describenos tu solicitud aqui" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        
+        </div>
+
+        
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">AUTOLAB</h2>
+                    <p>CREACION DE REGLAJES Y TIPS EN PISTA</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/gtaller/" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://twitter.com/javiergersson" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="https://www.instagram.com/gersson1gt/" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
