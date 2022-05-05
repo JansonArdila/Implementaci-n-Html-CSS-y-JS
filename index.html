@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página web</title>
+    <link type="text/css" rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" 
     href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -92,6 +93,51 @@
                 </div>
             </section>
         </section>
+    <table class="TablaPrincipal">
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="codigoAuto">Código de auto</label>
+                        <input type="text" name="codigoAuto" id="codigoAuto">
+                    </div>
+                    <div>
+                        <label for="nombreAuto">Nombre de auto</label>
+                        <input type="text" name="nombre" id="nombreAuto">
+                    </div>
+                    <div>
+                        <label for="modeloAuto">Modelo de auto</label>
+                        <input type="text" name="modeloAuto" id="modeloAuto">
+                    </div>
+                    <div>
+                        <label for="serieAuto">Serie de auto</label>
+                        <input type="text" name="serieAuto" id="serieAuto">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="Registrar">
+                        <input type="reset" value="Reset">   
+                    </div>
+                </form>
+                    
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Código de auto</th>
+                                <th>Nombre de auto</th>
+                                <th>Modelo de auto</th>
+                                <th>Serie de auto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table> 
+    <script type="text/javascript" src="./js/scripter.js"></script>       
         <div class="container">
             <h2 class="subtitulo">CONTACTANOS</h2>
             <form action="https://formsubmit.co/gersson458@gmail.com" method="POST">
@@ -105,9 +151,8 @@
         
         </div>
 
-        
-    </main>
 
+    </main>
     <footer id="footer">
         <div class="contenedor footer-content">
                 <div class="contact-us">

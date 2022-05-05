@@ -62,6 +62,9 @@ textarea{
 
 body{
     font-family: 'Tapestry', cursive;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .contenedor{
@@ -436,4 +439,39 @@ footer{
         margin-bottom: 40px;
     }
     
+}
+.TablaPrincipal
+{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: #ccc;
+}
+
+input[type="text"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px;
+    border-radius: 4px;
 }
